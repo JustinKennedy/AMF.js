@@ -1,6 +1,6 @@
 {
-  "name": "amfjs",
-  "version": "1.0.0",
+  "name": "social-amfjs",
+  "version": "1.0.1",
   "description": "A simple AMF (ActionScript Message Format) library for Node.js",
   "main": "lib/amf-js.js",
   "directories": {
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ProjectCryo/AMF.js.git"
+    "url": "https://github.com/JustinKennedy/AMF.js.git"
   },
   "keywords": [
     "amf"
@@ -28,7 +28,11 @@
   "author": "molenzwiebel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ProjectCryo/AMF.js/issues"
+    "url": "https://github.com/JustinKennedy/AMF.js/issues"
   },
-  "homepage": "https://github.com/ProjectCryo/AMF.js"
+  "homepage": "https://github.com/JustinKennedy/AMF.js",
+  "publishConfig": {
+    "registry": "https://gamesys.artifactoryonline.com/gamesys/api/npm/npm-virtual/"
+  }
+
 }

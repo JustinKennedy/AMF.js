@@ -144,6 +144,10 @@ AMF3.ARRAY.decode = ->
 	header = @readAMFHeader()
 	return @amf3ObjectReferences[header.value] if not header.isDef
 
+	if header.value is 0
+		@readByte()
+		return null
+
 	named = {}
 	while (key = @deserialize AMF3.STRING, AMF3) isnt ""
 		named[key] = @decode AMF3

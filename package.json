@@ -1,6 +1,6 @@
 {
   "name": "social-amfjs",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A simple AMF (ActionScript Message Format) library for Node.js",
   "main": "lib/amf-js.js",
   "directories": {

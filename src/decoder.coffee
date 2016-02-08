@@ -146,7 +146,7 @@ AMF3.ARRAY.decode = ->
 
 	if header.value is 0
 		@readByte()
-		return null
+		return []
 
 	named = {}
 	while (key = @deserialize AMF3.STRING, AMF3) isnt ""
